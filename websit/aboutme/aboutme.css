@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#back{
+    height: 1000px;
+    background-image: url("/aboutme/images/cover.jpg");
+    /* Full height */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    
+}
+#block{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: beige;
+    position: absolute;
+    top: 250px;
+    margin: 0 250px;
+}

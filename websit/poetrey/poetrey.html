@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poetry Book</title>
+  <link rel="stylesheet" href="/poetrey/poetrey.css">
+</head>
+<body>
+    <div id="flipbook">
+        <div id="cover">       
+        </div>
+        <div id="page1">page2</div>
+        <div id="page1b">
+        </div>
+        <div style="background-color: aquamarine;">page3</div>
+        <div style="background-color: aquamarine;">page3</div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="turn.min.js"></script>
+  <script>
+    $('#flipbook').turn({gradients: true, acceleration: true});
+  </script>
+</body>
+</html>
+
+
+

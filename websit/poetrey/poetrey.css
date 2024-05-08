@@ -1,0 +1,34 @@
+body{
+    overflow: hidden;
+    background-color: gray;
+}
+#cover{
+    background-image: url("/poetrey/images/cover.png");
+    /* Full height */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#flipbook{
+    margin: 100px 200px;
+    width: 800px;
+    height: 600px;
+    
+}
+#page1{
+    background-image: url("/poetrey/images/page1.jpg");
+    /* Full height */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#page1b{
+    background-image: url("/poetrey/images/page1n.png");
+    /* Full height */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
